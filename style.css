@@ -16,7 +16,7 @@ body {
   display: flex;
   width: 800px;
   height: 800px;
-  background-color: #d3b68e;
+  background-color: white;
 }
 
 #size {
@@ -26,8 +26,7 @@ body {
   padding: 12px 30px;
   margin: 10px 0 20px;
   background-color: #B99B6B;
-  border: #7a694c solid 3px;
-  border-radius: 15px;
+  border: #7a694c solid 2px;
 }
 
 .hover {
@@ -45,7 +44,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   border: black solid 1px;
-  border-radius: 7.5%;
   flex-grow: 1;
+  background-color: white;
 }
 

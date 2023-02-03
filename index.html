@@ -8,7 +8,16 @@
 </head>
 <body>
   <div id="container">
-    <button id="size">Set Size</button>
+    <div id="settings">
+      <button id="size">Set Size</button>
+      <label for="brush">Brush type: </label>
+      <select id="brush">
+        <option value="black" selected>Black</option>
+        <option value="white">White</option>
+        <option value="grayscale">Grayscale</option>
+        <option value="random">Random</option>
+      </select>
+    </div>
     <div id="board"></div>
   </div>
 </body>
